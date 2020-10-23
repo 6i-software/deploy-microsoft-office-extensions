@@ -5,7 +5,6 @@ Deploy Microsoft Office Extensions
 
 > Helper to deploy Microsoft Office Extensions, like Excel or Word VBA macros, add custom actions in Office Ribbon, with InnoSetup. We use this solution in order to make easy installation and deployment of VBA macros stored in *.xlam or *.dotm files.
 
-
 ## Features
 
 The deployment of addins and extensions of Microsoft Office Word & Exel, depends on shared libraries and VBA macro ... can be hard.
@@ -15,6 +14,7 @@ The deployment of addins and extensions of Microsoft Office Word & Exel, depends
  - Install Word addins on a PC client. Word macro must be stored in a *.dotm file. In order to use shared Word VBA macro in all Word files, we have choosen to saved *.dotm file in this folder : `c:\users\[name]\AppData\Roaming\Microsoft\Word\STARTUP\` 
  - Give a process to customize the Excel ribbon and Word ribbon for making easy interactions with office extensions.     
 
+![](./doc/images/deploy-microsoft-office-extensions-cover.png)
 
 ## Usages
 

@@ -3,7 +3,9 @@ Deploy Microsoft Office Extensions
 
 ## How to customize the ribbon in Excel Or Word ?
 
-![](./images/OfficeRibbonXEditor_helloWorld.png) 
+![](./images/OfficeRibbonXEditor_helloWorld.png)
+---
+![](./images/OfficeRibbonXEditor_CutByPages.png) 
 
 ### Install Office RibbonX Editor
 
@@ -19,8 +21,21 @@ See the Custom UI schema for Office 2010 (customUI14.xml) :
 
 ```xml
 <customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" xmlns:x="Acme">
-
-
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab idQ="x:Acme" label="6i ACME" insertAfterMso="TabView">
+        <group idQ="x:Ibicf" label="6i ACME">
+          <button id="helloWorld" 
+                  label="Hello" 
+                  onAction="apply_helloWorld_eventhandle" 
+                  size="large"
+                  image="iconHelloWorld"
+                  screentip="Hello action"
+                  supertip="Lorem ipsum..." />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
 </customUI>
 ```
 
