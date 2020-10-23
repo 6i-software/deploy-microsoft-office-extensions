@@ -1,0 +1,5 @@
+﻿Requirements
+
+ - Windows 7 or more ;
+ - Microsoft Office Excel 2007 or more ;
+ - Microsoft Office Word 2007 or more ;
