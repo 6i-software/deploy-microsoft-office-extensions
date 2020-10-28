@@ -25,13 +25,17 @@ The deployment of addins and extensions of Microsoft Office Word & Exel, depends
 
 ## About
 
-### Acknowledgments
+### Credits
 
-Acknowledgments for [Daniel Kraus](http://github.com/bovender) work, with [ExcelAddinInstaller](https://github.com/bovender/ExcelAddinInstaller). More informations about how he used InnoSetup to install Excel Addins [here](https://www.xltoolbox.net/blog/2013/12/using-innosetup-to-install-excel-addins.html). 
+This project is inspired by the work of [Daniel Kraus](http://github.com/bovender), with [ExcelAddinInstaller](https://github.com/bovender/ExcelAddinInstaller). More informations about how he used InnoSetup to install Excel Addins [here](https://www.xltoolbox.net/blog/2013/12/using-innosetup-to-install-excel-addins.html). 
+
+Deploy Microsoft Office Extensions depends on :
+
+- Microsoft®, Windows®, Office®, and Excel® are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries.
+- InnoSetup v6, JRSoftware (https://jrsoftware.org/isinfo.php)
 
 ### License
 
 Copyright (c) 6i by 2o1oo <vb20100bv@gmail.com>
 Release under [MIT](./LICENSE.md) license.
 
-Microsoft®, Windows®, Office®, and Excel® are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries.
