@@ -1,7 +1,8 @@
 Deploy Microsoft Office Extensions
 ==================================
 
-![](https://img.shields.io/badge/Deploy_Microsoft_Office_Extensions-alpha-green.svg?style=flat-square)  
+[![LICENSE](https://img.shields.io/badge/license-MIT-informational.svg)](https://github.com/v20100v/6i-Jekyll/blob/develop/LICENSE.md)
+[![Support me by offer me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-donate-informational.svg)](https://www.buymeacoffee.com/vincent.blain)
 
 > Helper to deploy Microsoft Office Extensions, like Excel or Word VBA macros, add custom actions in Office Ribbon, with InnoSetup. We use this solution in order to make easy installation and deployment of VBA macros stored in *.xlam or *.dotm files.
 
@@ -39,3 +40,4 @@ Deploy Microsoft Office Extensions depends on :
 Copyright (c) 6i by 2o1oo <vb20100bv@gmail.com>
 Release under [MIT](./LICENSE.md) license.
 
+It is free to use and available as open source under the terms of the [MIT License](./LICENSE.md), but if you want to support me, you can [buy me a coffee here](https://www.buymeacoffee.com/vincent.blain) !
